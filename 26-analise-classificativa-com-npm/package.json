@@ -1,0 +1,14 @@
+{
+  "name": "IA com JS",
+  "version": "1.0.0",
+  "description": "IA com JS",
+  "main": "index01.js",
+  "keywords": [],
+  "author": "Ben-Hur",
+  "license": "ISC",
+  "dependencies": {
+    "ml-bayes": "^1.0.5",
+    "ml-knn": "^3.0.0",
+    "node-decision-tree": "^0.1.2"
+  }
+}

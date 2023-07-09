@@ -1,0 +1,9 @@
+Caso você tenha problemas na instalação do Brain.js execute os passos a seguir:
+
+1º - Abra o Windows PowerShell como administrador e execute os seguintes comandos:
+npm i -g node-gyp
+npm i -g --production windows-build-tools
+
+2º - Reinicie o computador
+
+3º - Abra o terminal como administrador, acesse o diretório do seu projeto e execute: npm i brain.js

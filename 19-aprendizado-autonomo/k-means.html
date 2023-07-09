@@ -1,0 +1,75 @@
+﻿<!doctype html>
+<html>
+	<head>
+	   <link rel="stylesheet" href="css/bootstrap.min.css">
+	   <script src="js/jquery.min.js"></script>
+	   <script src="js/popper.min.js"></script>
+	   <script src="js/bootstrap.min.js"></script>
+	   <meta charset="utf-8">
+	   <title>Machine Learning</title>
+	   <script src="js/index.js"></script>
+	</head>
+	<body>
+	   <nav class="navbar navbar-expand-sm bg-primary navbar-primary">
+	     <ul class="navbar-nav">
+	       <li class="nav-item">
+	         <a class="nav-link text-white" href="#" data-toggle="modal" data-target="#modalNovo">
+	         	Novo
+	     	 </a>
+	       </li>
+	     </ul>
+	   </nav>
+	   <br>
+	   <div class="container">
+	   	 <img src="img/logo.png" width="100px" height="100px" align="right">
+	     <h2>Inteligência Artificial e Machine Learning com JavaScript.</h2>
+	     <p>K-Means</p>
+	     <div class="row">
+		     <input type="number" id="grupos" class="form-control col-md-3" min="2" placeholder="Número de Grupos">
+			 <button onclick="executar()" type="button" class="btn btn-primary ml-2" data-dismiss="modal">Agrupar</button>
+	     </div>
+		 <div style="overflow-y:scroll; height: 200px;" class="mt-4">
+			  <table class="table table-striped">
+			    <thead>
+			      <tr>
+			        <th>Idade</th>
+			        <th>Peso</th>
+			      </tr>
+			    </thead>
+			    <tbody id="linhas">
+
+			    </tbody>
+			  </table>
+		 </div>
+
+		 <textarea id="resultado" class="form-control"></textarea>
+	   </div>
+
+	   <div class="modal fade" id="modalNovo">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+
+		      <div class="modal-header">
+		        <h4 class="modal-title">Novo</h4>
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		      </div>
+
+		      <div class="modal-body">
+				  <label for="idade">Idade:</label>
+				  <input type="number" id="idade" class="form-control" min="1" max="150">
+				  <label for="peso">Peso:</label>
+				  <input type="number" id="peso" class="form-control" min="5" max="200">  
+		      </div>
+
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-primary" data-dismiss="modal">Cancelar</button>
+		        <button type="button" class="btn btn-success" data-dismiss="modal" onclick="cadastrar()">Confirmar</button>
+		      </div>
+
+		    </div>
+		  </div>
+	   </div>
+
+	   <script src="js/k-means.js"></script>
+	</body>
+</html>

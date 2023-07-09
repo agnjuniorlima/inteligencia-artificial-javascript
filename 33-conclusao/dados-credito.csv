@@ -1,0 +1,11 @@
+SEXO;IDADE;PROFISSÃO       ;SALÁRIO;DEVEDOR
+M   ;33   ;Vendedor(a)     ;1210   ;    SIM
+F   ;22   ;Vendedor(a)     ;1220   ;    SIM
+M   ;19   ;Administrador(a);2100   ;    NÃO
+F   ;27   ;Administrador(a);1800   ;    SIM
+M   ;41   ;Médico(a)       ;7150   ;    SIM
+F   ;35   ;Médico(a)       ;9000   ;    NÃO
+M   ;55   ;Engenheiro(a)   ;7000   ;    SIM
+F   ;39   ;Engenheiro(a)   ;7000   ;    SIM
+M   ;58   ;Advogado(a)     ;4200   ;    SIM
+F   ;57   ;Advogado(a)     ;4100   ;    SIM

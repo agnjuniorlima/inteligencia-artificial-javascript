@@ -1,0 +1,13 @@
+{
+  "name": "IA com JS",
+  "version": "1.0.0",
+  "description": "IA com JS",
+  "main": "index01.js",
+  "keywords": [],
+  "author": "Ben-Hur",
+  "license": "ISC",
+  "dependencies": {
+    "ml-kmeans": "^5.0.0",
+    "skmeans": "^0.10.2"
+  }
+}

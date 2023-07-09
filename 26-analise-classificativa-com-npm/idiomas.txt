@@ -1,0 +1,36 @@
+Português:
+Olá! Tenha um bom dia!
+OI! Como vai você?
+O livro está sobre a mesa.
+Qual é o seu nome?
+
+Inglês:
+Hello! Have a nice day!
+HI! How are you?
+The book is on the table.
+What is your name?
+
+Espanhol:
+¡Hola! ¡Tenga un buen día!
+HI! ¿Cómo te va?
+El libro está sobre la mesa.
+¿Cual es tu nombre?
+
+Francês:
+Bonjour Passez une bonne journée!
+Salut Comment ça va.
+Le livre est sur la table.
+Quel est votre nom.
+
+Alemão:
+Hallo! Ich wünsche dir einen schönen Tag!
+Hi! Wie geht es dir.
+Das Buch liegt auf dem Tisch.
+Wie heißt du.
+
+Testes
+Português: Oi! Hoje está um ótimo dia para correr.
+Inglês: Hi! Today is a great day to run.
+Espanhol: Hola! Hoy es un gran día para correr.
+Francês: Salut Aujourd'hui est un grand jour pour courir.
+Alemão: Hi! Heute ist ein großartiger Tag zum Laufen.

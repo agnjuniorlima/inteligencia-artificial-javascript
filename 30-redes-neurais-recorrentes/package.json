@@ -1,0 +1,12 @@
+{
+  "name": "IA com JS",
+  "version": "1.0.0",
+  "description": "IA com JS",
+  "main": "index01.js",
+  "keywords": [],
+  "author": "Ben-Hur",
+  "license": "ISC",
+  "dependencies": {
+    "brain.js": "^2.0.0-alpha.5"
+  }
+}
