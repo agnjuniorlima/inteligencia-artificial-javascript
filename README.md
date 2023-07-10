@@ -61,6 +61,7 @@ O algoritmo Naive Bayes é um classificador probabilístico baseado no teorema d
 ## :running: 6 - Naive Bayes Classificativo
 
 
+
 ## :running: 7 - K-Nearest Neighbors
 
 
